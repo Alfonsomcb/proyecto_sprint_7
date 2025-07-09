@@ -1,0 +1,3 @@
+pandas
+potly_express
+streamlit
