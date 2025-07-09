@@ -19,6 +19,10 @@ st.write('Seleccione una opción para visualizar los datos:')
 hist_checkbox = st.checkbox('Construir histograma') # crear un botón
      
 if hist_checkbox: # al hacer clic en el botón
+"""esta sección del código crea un botón que, al hacer clic,
+genera un histograma de la columna 'odometer' del conjunto de datos de anuncios de venta de coches.
+El gráfico se muestra utilizando Plotly y Streamlit para una visualización interactiva."""
+
      # escribir un mensaje
     st.write('Creación de un histograma para el conjunto de datos de anuncios de venta de coches')
          
@@ -29,6 +33,7 @@ if hist_checkbox: # al hacer clic en el botón
     st.plotly_chart(fig, use_container_width=True)
 
 
+
 #scatter button
 st.subheader('Visualización de Datos')
 st.write('Seleccione una opción para visualizar los datos:')
@@ -36,6 +41,9 @@ st.write('Seleccione una opción para visualizar los datos:')
 scatter_checkbox = st.checkbox('Construir Dispersión') # crear un botón
      
 if scatter_checkbox: # al hacer clic en el botón
+ """esta sección del código crea un botón que, al hacer clic,
+genera un diagrama de dispersión de las columnas 'odometer' y 'price'"""
+
     # escribir un mensaje
     st.write('Creación de un diagrama de dispersión para el conjunto de datos de anuncios de venta de coches')
          
